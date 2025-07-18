@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main()
+{
+    int dia, mes, ano;
+    
+    printf("Informe seu dia de nascimento: ");
+    scanf("%d",&dia);
+    printf("Informe seu mês em que nasceu: ");
+    scanf("%d",&mes);
+    printf("Informe o seu ano de nascimento: ");
+    scanf("%d",&ano);
+    
+    printf("%d/%d/%d", dia,mes,ano);
+
+    return 0;
+}
